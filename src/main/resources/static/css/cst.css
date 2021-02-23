@@ -231,4 +231,16 @@ body {
     .cst-mobile-play{
         display: block !important;
     }
+
+    div#blog-content{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    div#blog-label{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .cst-mobile-width{
+        width: 100% !important;
+    }
 }
