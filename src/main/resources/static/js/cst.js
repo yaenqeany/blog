@@ -8,4 +8,8 @@ $(function () {
         on: "click",
         position: "bottom center"
     });
+    
+/*    $("div.ui.labeled.button.cst-margin-tb-tiny.cst-margin-lr-normal a").click(function () {
+
+    });*/
 });

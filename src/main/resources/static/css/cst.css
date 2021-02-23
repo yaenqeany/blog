@@ -137,6 +137,31 @@ body {
     margin-bottom: 2rem !important;
 }
 
+.cst-margin-lr-mini {
+    margin-left: 0.1rem !important;
+    margin-right: 0.1rem !important;
+}
+
+.cst-margin-lr-tiny {
+    margin-left: 0.3rem !important;
+    margin-right: 0.3rem !important;
+}
+
+.cst-margin-lr-small {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.cst-margin-lr-normal {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.cst-margin-lr-large {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+}
+
 
 /*---------------text----------------*/
 .cst-text {
