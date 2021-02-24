@@ -4,12 +4,17 @@ $(function () {
     });
 
     $("div.ui.basic.button.orange.circular").popup({
-        popup:("div.ui.segment.center.aligned.basic"),
+        // popup:("div.ui.segment.center.aligned.basic"),
+        popup: ("div.ui.flowing.popup.transition.hidden"),
         on: "click",
         position: "bottom center"
     });
-    
-/*    $("div.ui.labeled.button.cst-margin-tb-tiny.cst-margin-lr-normal a").click(function () {
 
-    });*/
+    $("a.wechat").popup({
+        popup: ("div.ui.flowing.popup.transition.hidden"),
+        on: "hover",
+        position: "top center"
+    });
+
+    $(".ui.dropdown").dropdown();
 });
