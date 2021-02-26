@@ -42,16 +42,100 @@
 <div class="ui attached pointing menu">
     <div class="ui container">
         <div class="right menu">
-            <a href="#" class="item">发布</a>
-            <a href="#" class="active blue item">列表</a>
+            <a href="#" class="active blue item">发布</a>
+            <a href="#" class=" item">博客管理</a>
         </div>
     </div>
 
 </div>
 <!--主体-->
-<div class="ui container">
+<div class="ui container cst-padded-tb-large">
     <div class="ui segment">
+        <form method="post" class="ui form">
+            <div class="ui field">
+                <div class="ui labeled input">
+                    <div class="ui dropdown blue label">
+                        <input type="hidden" value="原创">
+                        <div class="text">原创</div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <div class="item">原创</div>
+                            <div class="item">转载</div>
+                            <div class="item">翻译</div>
+                        </div>
+                    </div>
 
+                    <input class="ui fluid" type="text" name="title" placeholder="标题">
+                </div>
+            </div>
+            <div class="ui field">
+                <textarea name="content" placeholder="正文" rows="14"></textarea>
+            </div>
+
+            <div class="two fields">
+                <div class="field">
+                    <div class="ui labeled input">
+                        <label class="ui compact blue basic label">分类</label>
+                        <select class="ui fluid dropdown">
+                            <option value="">分类</option>
+                            <option value="0">分类1</option>
+                            <option value="1">分类2</option>
+                            <option value="2">分类3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui labeled input">
+                        <label class="ui compact blue basic label">标签</label>
+                        <select class="ui fluid dropdown " multiple>
+                            <option value="">标签</option>
+                            <option value="0">标签1</option>
+                            <option value="1">标签2</option>
+                            <option value="2">标签3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="ui labeled input cst-margin-tb-tiny">
+                    <label class="ui compact blue basic label ">图片</label>
+                    <input type="file" class="ui input cst-padded-tb-tiny">
+                </div>
+            </div>
+
+            <div class="fields cst-margin-tb-normal">
+                <div class="filed cst-margin-lr-small">
+                    <div class="ui checkbox">
+                        <input type="checkbox" id="check1" tabindex="0" class="hidden">
+                        <label for="check1">推荐</label>
+                    </div>
+                </div>
+                <div class=" filed cst-margin-lr-small">
+                    <div class="ui checkbox">
+                        <input type="checkbox" id="check2" tabindex="0" class="hidden">
+                        <label for="check2">转载</label>
+                    </div>
+                </div>
+                <div class=" filed cst-margin-lr-small">
+                    <div class="ui checkbox">
+                        <input type="checkbox" id="check3" tabindex="0" class="hidden">
+                        <label for="check3">赞赏</label>
+                    </div>
+                </div>
+                <div class=" filed cst-margin-lr-small">
+                    <div class="ui checkbox">
+                        <input type="checkbox" id="check4" tabindex="0" class="hidden">
+                        <label for="check4">评论</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ui right aligned container ">
+                <button class="ui button red basic cst-margin-lr-small" type="reset">取消</button>
+                <button class="ui button orange cst-margin-lr-small" type="button">保存</button>
+                <button class="ui button blue cst-margin-lr-small" type="submit">发布</button>
+            </div>
+        </form>
     </div>
 </div>
 <!--底部栏-->
