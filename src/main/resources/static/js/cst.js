@@ -17,4 +17,7 @@ $(function () {
     });
 
     $(".ui.dropdown").dropdown();
+
+
+
 });
